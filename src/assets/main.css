@@ -1,0 +1,18 @@
+@import './base.css';
+
+@media (min-width: 1024px) {
+
+}
+
+.main_button {
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #00000062;
+  color: var(--text);
+  transition: .2s;
+}
+.main_button:hover {
+  opacity: .8;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #000000cd;
+}

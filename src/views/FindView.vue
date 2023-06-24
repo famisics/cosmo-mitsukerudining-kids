@@ -59,7 +59,7 @@ function mic() {
   position: relative;
   margin-top: 10px;
   height: calc(100vh - 200px);
-  background: url('@/assets/demo/map.png') center no-repeat;
+  background: url('/assets/img/map.png') center no-repeat;
   background-size: cover;
 }
 .search {

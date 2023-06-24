@@ -16,8 +16,11 @@ import HeaderNav from '@/components/HeaderNav.vue'
         <RouterLink class="header_home" to="/settings"><span class="material-symbols-rounded">settings</span></RouterLink>
       </div>
     </div>
-    CLOSED ALPHA / 2023 ©みつけるダイニング
-    <footer></footer>
+    <p>
+      CLOSED ALPHA(demo)<br>
+      一般向けは<a style="text-decoration: underline;" href="https://cosmo.stnfy.com">こちら</a>
+    </p>
+    <footer>2023 ©みつけるダイニング</footer>
   </main>
 </template>
 <style scoped>

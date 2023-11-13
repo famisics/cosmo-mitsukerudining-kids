@@ -19,19 +19,19 @@ import DiningListCard from '@/components/DiningListCard.vue'
     </div>
     <div class="list">
       <DiningListCard>
-        <template #icon><img src="@/assets/demo/usericon.jpg"></template>
+        <template #icon><img src="@/assets/demo/S__49512452_0.jpg"></template>
         <template #name>おにぎり食堂</template>
         <template #location>北海道札幌市東区北51条西20丁目1-2</template>
         <template #datetime>2月8日 15:00 - 17:00</template>
       </DiningListCard>
       <DiningListCard>
-        <template #icon><img src="@/assets/demo/usericon.jpg"></template>
+        <template #icon><img src="@/assets/demo/S__49512453_0.jpg"></template>
         <template #name>おにぎり食堂</template>
         <template #location>北海道札幌市東区北51条西20丁目1-2</template>
         <template #datetime>2月8日 15:00 - 17:00</template>
       </DiningListCard>
       <DiningListCard>
-        <template #icon><img src="@/assets/demo/usericon.jpg"></template>
+        <template #icon><img src="@/assets/demo/S__49512455_0.jpg"></template>
         <template #name>おにぎり食堂</template>
         <template #location>北海道札幌市東区北51条西20丁目1-2</template>
         <template #datetime>2月8日 15:00 - 17:00</template>

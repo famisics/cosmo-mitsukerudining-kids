@@ -7,7 +7,7 @@ const state = reactive({ fav: false })
   <HeaderNav>食堂情報</HeaderNav>
   <main>
     <div class="header">
-      <img src="@/assets/demo/usericon.jpg">
+      <img src="@/assets/demo/S__49512453_0.jpg">
       <div>
         <h2>おにぎり食堂 <span class="material-symbols-rounded" :class="{'fill heart': state.fav}" @click="state.fav = !state.fav">favorite</span></h2>
         <p class="sid">@{{ $route.params.sid }}</p>
@@ -18,7 +18,7 @@ const state = reactive({ fav: false })
     <p>　　住所：</p>
     <p>電話番号：</p> 
     <p>開催予定：各月３日、１２日、２３日</p>
-    <p>　　料金：こども100円<span class="material-symbols-rounded">offline_pin</span></p>
+    <p>　　料金：こども100円 <span class="material-symbols-rounded">offline_pin</span></p>
     <div class="line"></div>
     <h3>開催レポート</h3>
     <div class="report">
